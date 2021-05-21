@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TC TCId="" ManualTCId="TC004" TCName="TC004" UpdatedOn="5/17/2021 6:06:08 AM">
+  <WF>
+    <Task Name="cbbeb85419064b23bcdfa8b516af18b4" Desc="OpenURL" TaskSeq="1" WFId="cbbeb85419064b23bcdfa8b516af18b4" ID="cbbeb85419064b23bcdfa8b516af18b4" UpdateTS="5/17/2021 5:44:21 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="bb49d1ead632466aa02b76cdc17c9cce" ActionName="OpenURL" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="url" ParamSeq="1" Parameterized="0" Data="&quot;{URL}&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="testtask" Desc="" TaskSeq="2" WFId="a8b4ebd7114c446cb35cd19b7658cfe8" ID="92d7293654ab4a51a9617fabd3da3100" UpdateTS="5/17/2021 6:06:08 AM" FileName="testtask.XML" IsSystemTask="false" OnError="ExitTask" isCommented="false" IsSkipped="false" ParentID="">
+    </Task>
+    <Task Name="2cdca74160ae4497b8b4e0c96f741cac" Desc="Sleep" TaskSeq="3" WFId="2cdca74160ae4497b8b4e0c96f741cac" ID="2cdca74160ae4497b8b4e0c96f741cac" UpdateTS="5/17/2021 6:06:08 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="seconds" ParamSeq="1" Parameterized="0" Data="&quot;3&quot;">
+        </Param>
+      </Step>
+    </Task>
+  </WF>
+  <FieldMapping>
+  </FieldMapping>
+</TC>
