@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Task TaskName="LoginButtonValidation" UpdatedOn="5/12/2021 3:24:39 PM" Desc="LoginButtonValidation" TaskID="8d98bb2167314be080fef3b741ee6c53" Path="LoginButtonValidation.XML">
-  <Step StepId="1" stepSeq="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
-    <Param Name="seconds" ParamSeq="1" Parameterized="1" Data="">
+<Task TaskName="LoginButtonValidation" UpdatedOn="5/21/2021 8:04:26 AM" Desc="LoginButtonValidation" TaskID="8d98bb2167314be080fef3b741ee6c53" Path="LoginButtonValidation.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="bb49d1ead632466aa02b76cdc17c9cce" ActionName="OpenURL" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;https://www.shopify.in/&quot;" ParamSeq="1" Parameterized="0" Data="https://www.shopify.in/">
     </Param>
   </Step>
 </Task>
