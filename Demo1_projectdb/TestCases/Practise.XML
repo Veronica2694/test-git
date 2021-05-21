@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TC TCId="" ManualTCId="Practise" TCName="Practise" UpdatedOn="5/2/2021 1:00:42 PM">
+  <WF>
+    <Task Name="46c6807ec56b4063b84286214c909295" Desc="OpenURL" TaskSeq="1" WFId="46c6807ec56b4063b84286214c909295" ID="46c6807ec56b4063b84286214c909295" UpdateTS="5/1/2021 7:20:12 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="bb49d1ead632466aa02b76cdc17c9cce" ActionName="OpenURL" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="url" ParamSeq="1" Parameterized="0" Data="&quot;http://automationpractice.com&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="d5c8d8b81f0d4837a45f85ea504dda96" Desc="MaximizeBrowser" TaskSeq="2" WFId="d5c8d8b81f0d4837a45f85ea504dda96" ID="d5c8d8b81f0d4837a45f85ea504dda96" UpdateTS="5/1/2021 7:20:12 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="d2510f73a1214511bcfe723732cdc09e" ActionName="MaximizeBrowser" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="e4278d5f50234b6cb160aec4bc188206" Desc="Click" TaskSeq="3" WFId="e4278d5f50234b6cb160aec4bc188206" ID="e4278d5f50234b6cb160aec4bc188206" UpdateTS="5/1/2021 7:20:12 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="3bc96cc09a1f496a88f3953c35123c3b" ObjectTypeId="6825ab6cc81b41e4bfa64d519bbfb975" ActionID="f70024a57b384993987d5a0ace7db20b" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebLink" IsSkipped="False" ObjectName="Sign in" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="9c63f893499548c9892cc91da5d6eb8a" Desc="Sleep" TaskSeq="4" WFId="9c63f893499548c9892cc91da5d6eb8a" ID="9c63f893499548c9892cc91da5d6eb8a" UpdateTS="5/1/2021 7:21:15 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="seconds" ParamSeq="1" Parameterized="0" Data="&quot;3&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="f22cee5258534ccf9bc7abc701c08949" Desc="Set" TaskSeq="5" WFId="f22cee5258534ccf9bc7abc701c08949" ID="f22cee5258534ccf9bc7abc701c08949" UpdateTS="5/1/2021 7:20:12 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="c5ca323fac524d528af4ec6b70a43179" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionID="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" IsSkipped="False" ObjectName="email_create" StepSeq="1">
+        <Param Name="value" ParamSeq="1" Parameterized="0" Data="&quot;abc@gmail.com&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="3098af981d234a75ac343053a0551cef" Desc="Sleep" TaskSeq="6" WFId="3098af981d234a75ac343053a0551cef" ID="3098af981d234a75ac343053a0551cef" UpdateTS="5/1/2021 7:21:15 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="seconds" ParamSeq="1" Parameterized="0" Data="&quot;3&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="9dfb4b20a719465c9986dae0454a1053" Desc="Click" TaskSeq="7" WFId="9dfb4b20a719465c9986dae0454a1053" ID="9dfb4b20a719465c9986dae0454a1053" UpdateTS="5/1/2021 7:20:12 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="533fc6a2e53e4a86b038b6334c40cc61" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionID="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" IsSkipped="False" ObjectName="Create an account" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="0d5983d374b441b2a456bf2d06d91f15" Desc="Click" TaskSeq="8" WFId="0d5983d374b441b2a456bf2d06d91f15" ID="0d5983d374b441b2a456bf2d06d91f15" UpdateTS="5/1/2021 11:52:40 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="30d1d8f8c58640e58c12274ae1d3dbfd" ObjectTypeId="6825ab6cc81b41e4bfa64d519bbfb975" ActionID="f70024a57b384993987d5a0ace7db20b" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebLink" IsSkipped="False" ObjectName="ParamXpath_item1" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="ca246158838e40828b3f2b46b1561a00" Desc="Sleep" TaskSeq="9" WFId="ca246158838e40828b3f2b46b1561a00" ID="ca246158838e40828b3f2b46b1561a00" UpdateTS="5/1/2021 11:52:40 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="seconds" ParamSeq="1" Parameterized="0" Data="&quot;2&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="e4a96011e58d4c46aa754eb9c6920541" Desc="Click" TaskSeq="10" WFId="e4a96011e58d4c46aa754eb9c6920541" ID="e4a96011e58d4c46aa754eb9c6920541" UpdateTS="5/1/2021 11:52:40 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="b9c32a91bf00445e93a7d448f1aaf2ca" ObjectTypeId="6825ab6cc81b41e4bfa64d519bbfb975" ActionID="f70024a57b384993987d5a0ace7db20b" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebLink" IsSkipped="False" ObjectName="Casual Dresses" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="b15b0b137ace4a9b9de506857ec9bbb6" Desc="StoreVariable" TaskSeq="11" WFId="b15b0b137ace4a9b9de506857ec9bbb6" ID="b15b0b137ace4a9b9de506857ec9bbb6" UpdateTS="5/1/2021 11:54:54 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="key" ParamSeq="1" Parameterized="0" Data="&quot;Dress Type&quot;">
+        </Param>
+        <Param Name="data" ParamSeq="2" Parameterized="1" Data="">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="4cab8602eebe44419b0684c07645e605" Desc="Click" TaskSeq="12" WFId="4cab8602eebe44419b0684c07645e605" ID="4cab8602eebe44419b0684c07645e605" UpdateTS="5/2/2021 11:18:45 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="0c21864f2bfb43c598795371ffb0c0d3" ObjectTypeId="6825ab6cc81b41e4bfa64d519bbfb975" ActionID="f70024a57b384993987d5a0ace7db20b" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebLink" IsSkipped="False" ObjectName="Dresses" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="2507a2f526bb4b05bb3ea22f76a56345" Desc="StoreVariable" TaskSeq="13" WFId="2507a2f526bb4b05bb3ea22f76a56345" ID="2507a2f526bb4b05bb3ea22f76a56345" UpdateTS="5/2/2021 1:00:42 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="key" ParamSeq="1" Parameterized="0" Data="&quot;Type&quot;">
+        </Param>
+        <Param Name="type" ParamSeq="2" Parameterized="1" Data="">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="b8fb90695f2b42819fc62022703b5b61" Desc="IF" TaskSeq="14" WFId="b8fb90695f2b42819fc62022703b5b61" ID="b8fb90695f2b42819fc62022703b5b61" UpdateTS="5/2/2021 1:00:42 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ActionID="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="&quot;&quot;{Type}&quot;&quot;==&quot;Summer&quot;&quot;" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Type}&quot;&quot;==&quot;Summer&quot;&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="d2cf0b37dcb84e3ca76a02942d572999" Desc="Click" TaskSeq="15" WFId="d2cf0b37dcb84e3ca76a02942d572999" ID="d2cf0b37dcb84e3ca76a02942d572999" UpdateTS="5/2/2021 11:18:45 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="b8fb90695f2b42819fc62022703b5b61">
+      <Step StepId="1" ObjectId="222c2314509f432c829f20519783c3d2" ObjectTypeId="6825ab6cc81b41e4bfa64d519bbfb975" ActionID="f70024a57b384993987d5a0ace7db20b" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebLink" IsSkipped="False" ObjectName="Summer Dresses" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="109f896e9c834922b094eaa17c804c08" Desc="ELSE IF" TaskSeq="16" WFId="109f896e9c834922b094eaa17c804c08" ID="109f896e9c834922b094eaa17c804c08" UpdateTS="5/2/2021 1:00:42 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="b8fb90695f2b42819fc62022703b5b61">
+      <Step StepId="1" ActionID="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="&quot;&quot;{Type}&quot;&quot;==&quot;Evening&quot;" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Type}&quot;&quot;==&quot;Evening&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="980758c964fc43cbbde3badeb5989294" Desc="Click" TaskSeq="17" WFId="980758c964fc43cbbde3badeb5989294" ID="980758c964fc43cbbde3badeb5989294" UpdateTS="5/2/2021 11:18:45 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="109f896e9c834922b094eaa17c804c08">
+      <Step StepId="1" ObjectId="bc9f46f9211941d3962b382de7709326" ObjectTypeId="6825ab6cc81b41e4bfa64d519bbfb975" ActionID="f70024a57b384993987d5a0ace7db20b" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebLink" IsSkipped="False" ObjectName="Evening Dresses" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="585ff40d0b124077ade64b37ae143351" Desc="END IF" TaskSeq="18" WFId="585ff40d0b124077ade64b37ae143351" ID="585ff40d0b124077ade64b37ae143351" UpdateTS="5/2/2021 11:18:45 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="b8fb90695f2b42819fc62022703b5b61">
+      <Step StepId="1" ActionID="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="0004c113b7a140ce8f68761c14c74222" Desc="Sleep" TaskSeq="19" WFId="0004c113b7a140ce8f68761c14c74222" ID="0004c113b7a140ce8f68761c14c74222" UpdateTS="5/2/2021 11:18:45 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="seconds" ParamSeq="1" Parameterized="0" Data="&quot;2&quot;">
+        </Param>
+      </Step>
+    </Task>
+  </WF>
+  <FieldMapping>
+    <TaskDataSet TaskSeq="11" WFID="b15b0b137ace4a9b9de506857ec9bbb6" ColumnIndx="3">
+      <Step StepId="1" ActionID="bcffb579c3aa4cf0aa4138767b39063d" IsSkipped="False" StepSeq="1">
+        <Param Name="key" ParamSeq="1" Parameterized="0" Data="&quot;Dress Type&quot;">
+        </Param>
+        <Param Name="data" ParamSeq="2" Parameterized="1" Data="" ColumnIndx="3">
+        </Param>
+      </Step>
+    </TaskDataSet>
+    <TaskDataSet TaskSeq="13" WFID="2507a2f526bb4b05bb3ea22f76a56345" ColumnIndx="4">
+      <Step StepId="1" ActionID="bcffb579c3aa4cf0aa4138767b39063d" IsSkipped="False" StepSeq="1">
+        <Param Name="key" ParamSeq="1" Parameterized="0" Data="&quot;Type&quot;">
+        </Param>
+        <Param Name="type" ParamSeq="2" Parameterized="1" Data="" ColumnIndx="4">
+        </Param>
+      </Step>
+    </TaskDataSet>
+  </FieldMapping>
+</TC>

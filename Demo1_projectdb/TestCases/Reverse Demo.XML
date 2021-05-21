@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TC TCId="a13706e6110d4b0eb28e1589a80a8b67" ManualTCId="Reverse Demo" TCName="Reverse Demo" UpdatedOn="5/11/2021 11:56:38 AM">
+  <WF>
+    <Task Name="9025111a59104f4cb6e4bf70a37cdf97" Desc="OpenURL" TaskSeq="1" WFId="9025111a59104f4cb6e4bf70a37cdf97" ID="9025111a59104f4cb6e4bf70a37cdf97" UpdateTS="5/11/2021 11:24:07 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="bb49d1ead632466aa02b76cdc17c9cce" ActionName="OpenURL" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="url" ParamSeq="1" Parameterized="0" Data="&quot;https://stackoverflow.com/&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="eb8698bb609a49ada236da38032b3688" Desc="MaximizeBrowser" TaskSeq="2" WFId="eb8698bb609a49ada236da38032b3688" ID="eb8698bb609a49ada236da38032b3688" UpdateTS="5/11/2021 6:17:57 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="d2510f73a1214511bcfe723732cdc09e" ActionName="MaximizeBrowser" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="14d362a657a1487eaaaa812dd48bfc64" Desc="Click" TaskSeq="3" WFId="14d362a657a1487eaaaa812dd48bfc64" ID="14d362a657a1487eaaaa812dd48bfc64" UpdateTS="5/11/2021 11:25:54 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="0d3e01b38bad448391b930e4f3894c46" ObjectTypeId="6825ab6cc81b41e4bfa64d519bbfb975" ActionID="f70024a57b384993987d5a0ace7db20b" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebLink" IsSkipped="False" ObjectName="Sign up" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="aef1a49d8bff48eeb745367f9950096f" Desc="Set" TaskSeq="4" WFId="aef1a49d8bff48eeb745367f9950096f" ID="aef1a49d8bff48eeb745367f9950096f" UpdateTS="5/11/2021 11:29:21 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="63da4f96e6d4417dbcd49e912702f212" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionID="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" IsSkipped="False" ObjectName="display-name" StepSeq="1">
+        <Param Name="value" ParamSeq="1" Parameterized="0" Data="&quot;Veronica&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="875fff746e0a41bc84163ec841007d34" Desc="Set" TaskSeq="5" WFId="875fff746e0a41bc84163ec841007d34" ID="875fff746e0a41bc84163ec841007d34" UpdateTS="5/11/2021 11:56:38 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="54058ea0a57344c6aee8054262d5a5fd" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionID="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" IsSkipped="False" ObjectName="email_stack" StepSeq="1">
+        <Param Name="value" ParamSeq="1" Parameterized="0" Data="&quot;abc.com&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="d2b786881e394b22b6cf1d412d45032f" Desc="Set" TaskSeq="6" WFId="d2b786881e394b22b6cf1d412d45032f" ID="d2b786881e394b22b6cf1d412d45032f" UpdateTS="5/11/2021 11:56:38 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="05b8a6e4e4184f7c914b16428d81e013" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionID="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" IsSkipped="False" ObjectName="password_stack" StepSeq="1">
+        <Param Name="value" ParamSeq="1" Parameterized="0" Data="&quot;abc123&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="7b22530da8c840b9b941d65609576939" Desc="Check" TaskSeq="7" WFId="7b22530da8c840b9b941d65609576939" ID="7b22530da8c840b9b941d65609576939" UpdateTS="5/11/2021 11:24:07 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="e535c2b89d21400883cbbfc01c1eab65" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionID="913640807f4d44289f1c8fa83e360d18" ActionName="Check" QClass="com.webdriverfw.Wrappers.WebCheckbox" IsSkipped="False" ObjectName="EmailOptIn" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="f9defc8830bb46198ee617f14cf1d6bb" Desc="Click" TaskSeq="8" WFId="f9defc8830bb46198ee617f14cf1d6bb" ID="f9defc8830bb46198ee617f14cf1d6bb" UpdateTS="5/11/2021 11:24:07 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="7dba3ba8d47c434889b43a72aa84643a" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionID="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" IsSkipped="False" ObjectName="submit-button" StepSeq="1">
+      </Step>
+    </Task>
+  </WF>
+  <FieldMapping>
+  </FieldMapping>
+</TC>

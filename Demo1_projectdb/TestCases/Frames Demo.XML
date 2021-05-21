@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TC TCId="" ManualTCId="Frames Demo" TCName="Frames Demo" UpdatedOn="5/2/2021 3:25:31 PM">
+  <WF>
+    <Task Name="b2c8364c7b3f4b11b01bc89943e0cf4b" Desc="StoreWindowHandle" TaskSeq="1" WFId="b2c8364c7b3f4b11b01bc89943e0cf4b" ID="b2c8364c7b3f4b11b01bc89943e0cf4b" UpdateTS="5/2/2021 3:25:31 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="2a04f8af2c3a4c4c8977fc7a341487ef" ActionName="StoreWindowHandle" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="strKey" ParamSeq="1" Parameterized="0" Data="&quot;home&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="e28d20f7b6f1477ca78c3b970746d486" Desc="SelectFrame" TaskSeq="2" WFId="e28d20f7b6f1477ca78c3b970746d486" ID="e28d20f7b6f1477ca78c3b970746d486" UpdateTS="5/2/2021 3:25:31 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="4b19d3857421441199a7ec362a5582a2" ObjectTypeId="9053a0db9a424da4a4b62c2b040491ad" ActionID="6e9361296b75406080e5065286d8ec90" ActionName="SelectFrame" QClass="com.webdriverfw.Wrappers.Frame" IsSkipped="False" ObjectName="frame" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="cd55f014fe1245e5aaa313088ccc9310" Desc="DoubleClick" TaskSeq="3" WFId="cd55f014fe1245e5aaa313088ccc9310" ID="cd55f014fe1245e5aaa313088ccc9310" UpdateTS="5/2/2021 3:25:31 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="30d1d8f8c58640e58c12274ae1d3dbfd" ObjectTypeId="6825ab6cc81b41e4bfa64d519bbfb975" ActionID="89eaf4d5517d4a96b6a4a9dd3905b52c" ActionName="DoubleClick" QClass="com.webdriverfw.Wrappers.WebLink" IsSkipped="False" ObjectName="ParamXpath_item1" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="1e2c182629cc448498c07cb9ebb2bf16" Desc="SelectPage" TaskSeq="4" WFId="1e2c182629cc448498c07cb9ebb2bf16" ID="1e2c182629cc448498c07cb9ebb2bf16" UpdateTS="5/2/2021 3:25:31 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="fce354083efd4077986fa34073e3d7e6" ActionName="SelectPage" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="windowName" ParamSeq="1" Parameterized="0" Data="&quot;(home)&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="f485c178cadc4b73b77e306490b0c557" Desc="StoreWindowHandle" TaskSeq="5" WFId="f485c178cadc4b73b77e306490b0c557" ID="f485c178cadc4b73b77e306490b0c557" UpdateTS="5/2/2021 3:25:31 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="2a04f8af2c3a4c4c8977fc7a341487ef" ActionName="StoreWindowHandle" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="strKey" ParamSeq="1" Parameterized="0" Data="&quot;home&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="f0c9d1c817aa4722872d5d54c0798b52" Desc="Click" TaskSeq="6" WFId="f0c9d1c817aa4722872d5d54c0798b52" ID="f0c9d1c817aa4722872d5d54c0798b52" UpdateTS="5/2/2021 3:25:31 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="30d1d8f8c58640e58c12274ae1d3dbfd" ObjectTypeId="6825ab6cc81b41e4bfa64d519bbfb975" ActionID="f70024a57b384993987d5a0ace7db20b" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebLink" IsSkipped="False" ObjectName="ParamXpath_item1" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="97ab5838bcb741e9b6c64b3ddb3e96fd" Desc="StoreWindowHandle" TaskSeq="7" WFId="97ab5838bcb741e9b6c64b3ddb3e96fd" ID="97ab5838bcb741e9b6c64b3ddb3e96fd" UpdateTS="5/2/2021 3:25:31 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="2a04f8af2c3a4c4c8977fc7a341487ef" ActionName="StoreWindowHandle" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="strKey" ParamSeq="1" Parameterized="0" Data="&quot;second&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="c69e63d74b714961aec67c7dd0c67e20" Desc="SelectPage" TaskSeq="8" WFId="c69e63d74b714961aec67c7dd0c67e20" ID="c69e63d74b714961aec67c7dd0c67e20" UpdateTS="5/2/2021 3:25:31 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="fce354083efd4077986fa34073e3d7e6" ActionName="SelectPage" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="windowName" ParamSeq="1" Parameterized="0" Data="&quot;(second)&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="15cc8e3018ed4c75a6b593e7575b9332" Desc="Click" TaskSeq="9" WFId="15cc8e3018ed4c75a6b593e7575b9332" ID="15cc8e3018ed4c75a6b593e7575b9332" UpdateTS="5/2/2021 3:25:31 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="30d1d8f8c58640e58c12274ae1d3dbfd" ObjectTypeId="6825ab6cc81b41e4bfa64d519bbfb975" ActionID="f70024a57b384993987d5a0ace7db20b" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebLink" IsSkipped="False" ObjectName="ParamXpath_item1" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="b70bc14f67204cd58314039d9160435f" Desc="SelectPage" TaskSeq="10" WFId="b70bc14f67204cd58314039d9160435f" ID="b70bc14f67204cd58314039d9160435f" UpdateTS="5/2/2021 3:25:31 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="fce354083efd4077986fa34073e3d7e6" ActionName="SelectPage" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="windowName" ParamSeq="1" Parameterized="0" Data="&quot;home&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="6456ad4277cd4240b90fdf579051eafa" Desc="AttachFile" TaskSeq="11" WFId="6456ad4277cd4240b90fdf579051eafa" ID="6456ad4277cd4240b90fdf579051eafa" UpdateTS="5/2/2021 3:25:31 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="8ed522def21d435f87594dc9f7a2ca6f" ActionName="AttachFile" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="fileInputlocator" ParamSeq="1" Parameterized="1" Data="">
+        </Param>
+        <Param Name="locatorType" ParamSeq="2" Parameterized="1" Data="">
+        </Param>
+        <Param Name="filePath" ParamSeq="3" Parameterized="1" Data="">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="566a314e04634a438082fad49e7e4be2" Desc="PressKeys" TaskSeq="12" WFId="566a314e04634a438082fad49e7e4be2" ID="566a314e04634a438082fad49e7e4be2" UpdateTS="5/2/2021 3:25:31 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="key" ParamSeq="1" Parameterized="0" Data="&quot;abc.docx&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="6542ae961ab048abac6395454f3b0bbf" Desc="PressKeys" TaskSeq="13" WFId="6542ae961ab048abac6395454f3b0bbf" ID="6542ae961ab048abac6395454f3b0bbf" UpdateTS="5/2/2021 3:25:31 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="key" ParamSeq="1" Parameterized="0" Data="&quot;~[TAB~]&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="3cf427355cd145cd9145230753f5b55c" Desc="PressKeys" TaskSeq="14" WFId="3cf427355cd145cd9145230753f5b55c" ID="3cf427355cd145cd9145230753f5b55c" UpdateTS="5/2/2021 3:25:31 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="key" ParamSeq="1" Parameterized="0" Data="&quot;~[Enter~]&quot;">
+        </Param>
+      </Step>
+    </Task>
+  </WF>
+  <FieldMapping>
+    <TaskDataSet TaskSeq="11" WFID="6456ad4277cd4240b90fdf579051eafa" ColumnIndx="3">
+      <Step StepId="1" ActionID="8ed522def21d435f87594dc9f7a2ca6f" IsSkipped="False" StepSeq="1">
+        <Param Name="fileInputlocator" ParamSeq="1" Parameterized="1" Data="" ColumnIndx="3">
+        </Param>
+        <Param Name="locatorType" ParamSeq="2" Parameterized="1" Data="" ColumnIndx="4">
+        </Param>
+        <Param Name="filePath" ParamSeq="3" Parameterized="1" Data="" ColumnIndx="5">
+        </Param>
+      </Step>
+    </TaskDataSet>
+  </FieldMapping>
+</TC>

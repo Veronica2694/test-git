@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="LoginValidation" UpdatedOn="5/12/2021 3:23:44 PM" Desc="LoginValidation" TaskID="9e6a2c42ce1a4788850e6ef1a45be896" Path="LoginValidation.XML">
+  <Step StepId="1" stepSeq="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
+    <Param Name="seconds" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>

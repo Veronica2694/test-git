@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TC TCId="" ManualTCId="zoho" TCName="zoho" UpdatedOn="4/30/2021 11:47:54 AM">
+  <WF>
+    <Task Name="19419e80808c457782812e5d30aff432" Desc="DeletePDFFile" TaskSeq="1" WFId="19419e80808c457782812e5d30aff432" ID="19419e80808c457782812e5d30aff432" UpdateTS="4/30/2021 11:47:54 AM" IsSystemTask="true" isCommented="false" IsSkipped="true" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="770093ec4dba479c9bdd64ec0c8bfbaa" ActionName="DeletePDFFile" QClass="DeleteDownloadPDF" IsSkipped="True" StepSeq="1">
+        <Param Name="filepath" ParamSeq="1" Parameterized="0" Data="&quot;C:\Users\veronica.rolda\Downloads\j2ee-1_3-doc-tutorial-draft5.pdf&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="e69569d50cc147aeb53ea7ebcf40cb9d" Desc="OpenURL" TaskSeq="2" WFId="e69569d50cc147aeb53ea7ebcf40cb9d" ID="e69569d50cc147aeb53ea7ebcf40cb9d" UpdateTS="4/30/2021 11:47:54 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="bb49d1ead632466aa02b76cdc17c9cce" ActionName="OpenURL" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="url" ParamSeq="1" Parameterized="0" Data="&quot;https://www.zoho.com/&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="a219b72a344248059850910a957d26ae" Desc="MaximizeBrowser" TaskSeq="3" WFId="a219b72a344248059850910a957d26ae" ID="a219b72a344248059850910a957d26ae" UpdateTS="4/30/2021 11:47:54 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="d2510f73a1214511bcfe723732cdc09e" ActionName="MaximizeBrowser" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+      </Step>
+    </Task>
+    <Task Name="1e72f42d2ac94400a95975d061d61b48" Desc="Set" TaskSeq="4" WFId="1e72f42d2ac94400a95975d061d61b48" ID="1e72f42d2ac94400a95975d061d61b48" UpdateTS="4/30/2021 11:47:54 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="045021cf4a904253b433bf45fc86a2c4" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionID="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" IsSkipped="False" ObjectName="Email address or mobile number" StepSeq="1">
+        <Param Name="value" ParamSeq="1" Parameterized="0" Data="&quot;abc.gmail.com&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="8837863f9f0f4e70947da3d3f1e71fa3" Desc="Click" TaskSeq="5" WFId="8837863f9f0f4e70947da3d3f1e71fa3" ID="8837863f9f0f4e70947da3d3f1e71fa3" UpdateTS="4/30/2021 11:47:54 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectId="91ca918714464cc7af77a9c9700419f1" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionID="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" IsSkipped="False" ObjectName="Next" StepSeq="1">
+      </Step>
+    </Task>
+  </WF>
+  <FieldMapping>
+  </FieldMapping>
+</TC>
