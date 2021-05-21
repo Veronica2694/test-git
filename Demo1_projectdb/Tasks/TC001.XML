@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Task TaskName="TC001" UpdatedOn="5/21/2021 8:05:59 AM" Desc="TC001" TaskID="46655d1a4c874a4d97a69c1465f89299" Path="TC001.XML">
+<Task TaskName="TC001" UpdatedOn="5/21/2021 8:06:17 AM" Desc="TC001" TaskID="46655d1a4c874a4d97a69c1465f89299" Path="TC001.XML">
   <Step StepId="1" stepSeq="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="bb49d1ead632466aa02b76cdc17c9cce" ActionName="OpenURL" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
     <Param Name="&quot;https://www.shopify.in/&quot;" ParamSeq="1" Parameterized="0" Data="&quot;https://www.shopify.in/&quot;">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="d2510f73a1214511bcfe723732cdc09e" ActionName="MaximizeBrowser" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
+  </Step>
+  <Step StepId="3" stepSeq="3" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="&quot;3&quot;">
     </Param>
   </Step>
 </Task>
