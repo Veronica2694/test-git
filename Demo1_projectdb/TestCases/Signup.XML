@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<TC TCId="" ManualTCId="Signup" TCName="Signup" UpdatedOn="5/27/2021 1:21:41 PM">
+<TC TCId="" ManualTCId="Signup" TCName="Signup" UpdatedOn="5/27/2021 1:23:31 PM">
   <WF>
-    <Task Name="TC001" Desc="TC001" TaskSeq="1" WFId="9800cbfa73d946e2a79ec5091c8787d0" ID="46655d1a4c874a4d97a69c1465f89299" UpdateTS="5/27/2021 1:21:41 PM" FileName="TC001.XML" IsSystemTask="false" OnError="Continue" isCommented="false" IsSkipped="false" ParentID="">
+    <Task Name="TC001" Desc="TC001" TaskSeq="1" WFId="9800cbfa73d946e2a79ec5091c8787d0" ID="46655d1a4c874a4d97a69c1465f89299" UpdateTS="5/27/2021 1:23:31 PM" FileName="TC001.XML" IsSystemTask="false" OnError="Continue" isCommented="false" IsSkipped="false" ParentID="">
     </Task>
   </WF>
   <FieldMapping>
+    <TaskDataSet TaskSeq="1" WFID="9800cbfa73d946e2a79ec5091c8787d0" ColumnIndx="3">
+      <Step StepId="5" ActionID="c3eb0c034b2643c68fe2046c325283c1" IsSkipped="False" StepSeq="5">
+        <Param Name="Email" ParamSeq="1" Parameterized="1" Data="" ColumnIndx="3">
+        </Param>
+      </Step>
+    </TaskDataSet>
   </FieldMapping>
 </TC>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Task TaskName="TC001" UpdatedOn="5/27/2021 1:21:41 PM" Desc="TC001" TaskID="46655d1a4c874a4d97a69c1465f89299" Path="TC001.XML">
+<Task TaskName="TC001" UpdatedOn="5/27/2021 1:23:31 PM" Desc="TC001" TaskID="46655d1a4c874a4d97a69c1465f89299" Path="TC001.XML">
   <Step StepId="1" stepSeq="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="bb49d1ead632466aa02b76cdc17c9cce" ActionName="OpenURL" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
     <Param Name="&quot;{URL}&quot;" ParamSeq="1" Parameterized="0" Data="&quot;{URL}&quot;">
     </Param>
@@ -8,6 +8,12 @@
   </Step>
   <Step StepId="3" stepSeq="3" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
     <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="&quot;3&quot;">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="4" ObjectId="0d3e01b38bad448391b930e4f3894c46" ObjectName="Sign up" ObjectTypeId="6825ab6cc81b41e4bfa64d519bbfb975" ActionId="f70024a57b384993987d5a0ace7db20b" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebLink" ParentID="" IsSkipped="false">
+  </Step>
+  <Step StepId="5" stepSeq="5" ObjectId="54058ea0a57344c6aee8054262d5a5fd" ObjectName="email_stack" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="" IsSkipped="false">
+    <Param Name="Email" ParamSeq="1" Parameterized="1" Data="">
     </Param>
   </Step>
 </Task>
