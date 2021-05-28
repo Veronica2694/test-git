@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Task TaskName="TC001" UpdatedOn="5/27/2021 1:23:31 PM" Desc="TC001" TaskID="46655d1a4c874a4d97a69c1465f89299" Path="TC001.XML">
+<Task TaskName="TC001" UpdatedOn="5/28/2021 8:44:08 AM" Desc="TC001" TaskID="46655d1a4c874a4d97a69c1465f89299" Path="TC001.XML">
   <Step StepId="1" stepSeq="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="bb49d1ead632466aa02b76cdc17c9cce" ActionName="OpenURL" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
     <Param Name="&quot;{URL}&quot;" ParamSeq="1" Parameterized="0" Data="&quot;{URL}&quot;">
     </Param>
