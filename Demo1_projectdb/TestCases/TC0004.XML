@@ -1,11 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<TC TCId="" ManualTCId="TC0004" TCName="TC0004" UpdatedOn="5/28/2021 9:57:37 AM">
+<TC TCId="" ManualTCId="TC0004" TCName="TC0004" UpdatedOn="5/28/2021 11:43:01 AM">
   <WF>
     <Task Name="9a07fd580a94446bb5adf031ef33680d" Desc="Multiply" TaskSeq="1" WFId="9a07fd580a94446bb5adf031ef33680d" ID="9a07fd580a94446bb5adf031ef33680d" UpdateTS="5/28/2021 9:57:37 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
       <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="9c1b36e0c75a4140b21a5acae8a33784" ActionName="Multiply" QClass="custom.CustomWebGeneral" IsSkipped="False" StepSeq="1">
         <Param Name="int1" ParamSeq="1" Parameterized="0" Data="&quot;2&quot;">
         </Param>
         <Param Name="int2" ParamSeq="2" Parameterized="0" Data="&quot;2&quot;">
+        </Param>
+      </Step>
+    </Task>
+    <Task Name="44eb8877c7d24c24ac7b0c1f90499109" Desc="OpenURL" TaskSeq="2" WFId="44eb8877c7d24c24ac7b0c1f90499109" ID="44eb8877c7d24c24ac7b0c1f90499109" UpdateTS="5/28/2021 11:43:01 AM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="bb49d1ead632466aa02b76cdc17c9cce" ActionName="OpenURL" QClass="com.webdriverfw.Wrappers.General" IsSkipped="False" StepSeq="1">
+        <Param Name="url" ParamSeq="1" Parameterized="0" Data="&quot;https://www.bing.com/&quot;">
         </Param>
       </Step>
     </Task>
