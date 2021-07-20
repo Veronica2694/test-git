@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TC TCId="9d9644d055414af782e7009d49e2c279" ManualTCId="TC001" TCName="TC001" UpdatedOn="1/1/0001 12:00:00 AM">
+  <WF>
+    <Task Name="Task1" Desc="Task1" TaskSeq="1" WFId="ddcd57a3c253401a9ebfaddf1d656a50" ID="6b9f1e6c24a14db98b04204909141409" UpdateTS="6/12/2021 4:46:11 PM" FileName="Task1.XML" IsSystemTask="false" OnError="Continue" isCommented="false" IsSkipped="true" ParentID="">
+    </Task>
+    <Task Name="Luma" Desc="Luma" TaskSeq="2" WFId="ea2e6a3c44b64ef798b508707d519078" ID="e1e0024055734155b6a3a75197c30dd5" UpdateTS="6/12/2021 4:57:53 PM" FileName="Luma.XML" IsSystemTask="false" OnError="Continue" isCommented="false" IsSkipped="true" ParentID="">
+    </Task>
+    <Task Name="Test_setfocusandmouseover" Desc="Test_setfocusandmouseover" TaskSeq="3" WFId="5815fec9b2d64b959e8cc02bda08e0eb" ID="966997c9c633406e8dce2314887b41b1" UpdateTS="6/13/2021 4:52:08 PM" FileName="Test_setfocusandmouseover.XML" IsSystemTask="false" OnError="Continue" isCommented="false" IsSkipped="false" ParentID="">
+    </Task>
+  </WF>
+  <FieldMapping>
+    <TaskDataSet TaskSeq="2" WFID="ea2e6a3c44b64ef798b508707d519078" ColumnIndx="3">
+      <Step StepId="8" ActionID="ebd61317ee4440df9fe1ee61e98747e2" IsSkipped="False" StepSeq="6">
+        <Param Name="x" ParamSeq="1" Parameterized="1" Data="" ColumnIndx="3">
+        </Param>
+        <Param Name="y" ParamSeq="2" Parameterized="1" Data="" ColumnIndx="4">
+        </Param>
+      </Step>
+      <Step StepId="9" ActionID="d9b305043faf4a5e9d687b2f97705b00" IsSkipped="True" StepSeq="12">
+        <Param Name="timeOut" ParamSeq="1" Parameterized="0" Data="&quot;10&quot;">
+        </Param>
+        <Param Name="pollingInterval" ParamSeq="2" Parameterized="1" Data="" ColumnIndx="5">
+        </Param>
+        <Param Name="keyClickability" ParamSeq="3" Parameterized="1" Data="" ColumnIndx="6">
+        </Param>
+        <Param Name="statusIfConditionNotSatisfied" ParamSeq="4" Parameterized="1" Data="" ColumnIndx="7">
+        </Param>
+      </Step>
+    </TaskDataSet>
+  </FieldMapping>
+</TC>

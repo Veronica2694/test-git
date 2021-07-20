@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TC TCId="bee82636d2a74bd7bd50c36d052027e1" ManualTCId="TC002" TCName="TC002" UpdatedOn="1/1/0001 12:00:00 AM">
+  <WF>
+    <Task Name="Test_setfocusandmouseover" Desc="Test_setfocusandmouseover" TaskSeq="1" WFId="35074b478ea0496e849417e2567f3ae9" ID="966997c9c633406e8dce2314887b41b1" UpdateTS="6/14/2021 1:41:49 PM" FileName="Test_setfocusandmouseover.XML" IsSystemTask="false" OnError="Continue" isCommented="false" IsSkipped="false" ParentID="">
+    </Task>
+    <Task Name="8e253d97707e484db12e0000bec977c4" Desc="getLatestFilefromDir" TaskSeq="2" WFId="8e253d97707e484db12e0000bec977c4" ID="8e253d97707e484db12e0000bec977c4" UpdateTS="6/14/2021 1:45:25 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="2e36d87ac4a348de9763a6c29f3c26f5" ActionName="getLatestFilefromDir" QClass="getLatestFilefromDir" IsSkipped="False" StepSeq="1">
+        <Param Name="dirPath" ParamSeq="1" Parameterized="0" Data="&quot;D:\\8.2.0 suite&quot;">
+        </Param>
+        <Param Name="storeKey" ParamSeq="2" Parameterized="0" Data="&quot;var&quot;">
+        </Param>
+      </Step>
+    </Task>
+  </WF>
+  <FieldMapping>
+    <TaskDataSet TaskSeq="1" WFID="35074b478ea0496e849417e2567f3ae9" ColumnIndx="3">
+      <Step StepId="7" ActionID="cbcc521ab90d495eab2d65419b296f72" IsSkipped="True" StepSeq="7">
+        <Param Name="dirPath" ParamSeq="1" Parameterized="0" Data="&quot;D:\&quot;">
+        </Param>
+        <Param Name="storeKey" ParamSeq="2" Parameterized="1" Data="" ColumnIndx="3">
+        </Param>
+      </Step>
+    </TaskDataSet>
+  </FieldMapping>
+</TC>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Task1" UpdatedOn="6/12/2021 4:46:11 PM" Desc="Task1" TaskID="6b9f1e6c24a14db98b04204909141409" Path="Task1.XML">
+  <Step StepId="1" stepSeq="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="bb49d1ead632466aa02b76cdc17c9cce" ActionName="OpenURL" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
+    <Param Name="&quot;https://stackoverflow.com/&quot;" ParamSeq="1" Parameterized="0" Data="&quot;https://stackoverflow.com/&quot;">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="d2510f73a1214511bcfe723732cdc09e" ActionName="MaximizeBrowser" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
+  </Step>
+  <Step StepId="3" stepSeq="3" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="&quot;2&quot;">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="4" ObjectId="0e88ac9eaecf43669f9fbd18198b5dc3" ObjectName="Log in" ObjectTypeId="6825ab6cc81b41e4bfa64d519bbfb975" ActionId="f70024a57b384993987d5a0ace7db20b" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebLink" ParentID="" IsSkipped="false">
+  </Step>
+  <Step StepId="5" stepSeq="5" ObjectId="e9ed20a9d63c42b4b12e896b89e326a2" ObjectName="email" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="" IsSkipped="false">
+    <Param Name="&quot;veronica2694.vr6@gmail.com&quot;" ParamSeq="1" Parameterized="0" Data="&quot;veronica2694.vr6@gmail.com&quot;">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="6" ObjectId="e9ed20a9d63c42b4b12e896b89e326a2" ObjectName="email.Log In - Stack Overflow" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="fe1bff6578ab4eaa8c36cf00ba76bbf9" ActionName="MouseOver" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="" IsSkipped="false">
+  </Step>
+  <Step StepId="11" stepSeq="7" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="&quot;3&quot;">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="8" ObjectId="c7ce57dab340435e9a8362cc6c6015e5" ObjectName="password" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="" IsSkipped="false">
+    <Param Name="&quot;abc@123&quot;" ParamSeq="1" Parameterized="0" Data="&quot;abc@123&quot;">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="9" ObjectId="c7ce57dab340435e9a8362cc6c6015e5" ObjectName="password.Log In - Stack Overflow" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="66c3d028781c40dea939a5cf053f1813" ActionName="SetFocus" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="" IsSkipped="false">
+  </Step>
+  <Step StepId="12" stepSeq="10" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="&quot;3&quot;">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="11" ObjectId="bf1ae464ad1a44ea85273158d8c5e46e" ObjectName="submit-button" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" ParentID="" IsSkipped="false">
+  </Step>
+  <Step StepId="8" stepSeq="12" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="&quot;3&quot;">
+    </Param>
+  </Step>
+</Task>

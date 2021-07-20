@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Test_setfocusandmouseover" UpdatedOn="6/14/2021 1:41:49 PM" Desc="Test_setfocusandmouseover" TaskID="966997c9c633406e8dce2314887b41b1" Path="Test_setfocusandmouseover.XML">
+  <Step StepId="3" stepSeq="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="bb49d1ead632466aa02b76cdc17c9cce" ActionName="OpenURL" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="true" ObjectId="" ObjectName="">
+    <Param Name="&quot;http://34.196.138.215/&quot;" ParamSeq="1" Parameterized="0" Data="&quot;http://34.196.138.215/&quot;">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="2" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="bb49d1ead632466aa02b76cdc17c9cce" ActionName="OpenURL" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="true" ObjectId="" ObjectName="">
+    <Param Name="&quot;https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_file&quot;" ParamSeq="1" Parameterized="0" Data="&quot;https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_file&quot;">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="3" ObjectId="b3e47af9a13b4535aa001b3a716247a2" ObjectName="Search entire store here..." ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="fe1bff6578ab4eaa8c36cf00ba76bbf9" ActionName="MouseOver" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="" IsSkipped="true">
+  </Step>
+  <Step StepId="4" stepSeq="4" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="&quot;3&quot;">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="5" ObjectId="b3e47af9a13b4535aa001b3a716247a2" ObjectName="Search entire store here..." ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="66c3d028781c40dea939a5cf053f1813" ActionName="SetFocus" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="" IsSkipped="true">
+  </Step>
+  <Step StepId="6" stepSeq="6" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="" IsSkipped="false" ObjectId="" ObjectName="">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="&quot;3&quot;">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="7" ObjectId="18bccac889074a8da958c4cf76a7a911" ObjectName="myfile" ObjectTypeId="373dd2821f774f6bb815eb2dd8925e64" ActionId="cbcc521ab90d495eab2d65419b296f72" ActionName="getLatestFile" QClass="getLatestFile" ParentID="" IsSkipped="true">
+    <Param Name="&quot;D:\&quot;" ParamSeq="1" Parameterized="0" Data="&quot;D:\&quot;">
+    </Param>
+    <Param Name="storeKey" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>
